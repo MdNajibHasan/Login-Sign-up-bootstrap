@@ -34,6 +34,12 @@ body {
     background-size:cover;
     background-attachment: fixed;
     min-height:100%;
+
+    /* Changes for forget password */
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 
@@ -54,13 +60,21 @@ body {
 }
 
 
+
+
+ .wrapper .password-info {
+    font-size:10px;
+}
+
+
+
 .wrapper .submit-btn {
-    padding:15px;
+    padding: 10px 15px;
     font-weight:500;
 }
 
 .wrapper .login-with {
-    padding:15px;
+    padding: 8px 13px;
     font-size:15px;
     font-weight: 500;
     transition: 0.3s ease-in-out;
@@ -81,5 +95,5 @@ body {
 }
 
 .wrapper .login-with img {
-    max-width: 8%;
+    max-width: 7%;
 }
